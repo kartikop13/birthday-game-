@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background: radial-gradient(circle, #220044, #110022); 
+    color: #ffccff;  /* Light neon pink text */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Container */
+.container {
+    background: rgba(20, 20, 20, 0.85); /* Dark semi-transparent box */
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(255, 105, 180, 0.8); /* Neon pink glow */
+    width: 90%;
+    max-width: 500px;
+    border: 3px solid #ff99ff; /* Bright pink neon border */
+}
+
+/* Song Selection Dropdown */
+select {
+    background: #330033;
+    color: #ff99ff;
+    font-size: 16px;
+    border: 2px solid #ff33cc;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ff33cc;
+}
+
+/* Input Field (Lyrics Box) */
+input {
+    background: #220022;
+    color: #ff99ff;
+    font-size: 16px;
+    border: 2px solid #ff33cc;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ff33cc;
+    text-align: center;
+}
+
+/* Buttons (Submit, Show Hint, Next Level) */
+button {
+    background: #ff33cc;
+    color: #220022;
+    font-size: 16px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 15px #ff33cc;
+}
+
+button:hover {
+    background: #ff66ff;
+    box-shadow: 0px 0px 25px #ff99ff;
+}
+
+/* Hidden Hint Box */
+#hint {
+    display: none;
+    background: #330033;
+    color: #ff99ff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ff33cc;
+    box-shadow: 0px 0px 15px #ff33cc;
+}
